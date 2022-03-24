@@ -1,0 +1,20 @@
+Sec 1, 2 (allopathy-hyptertension-cpg.son file) - starting with  line numbers 8, 413 
+- Contains definitions and related actions for Grade 1 and 2 Hypertensions
+
+Sec 3 (allopathy-hyptertension-cpg.son file) - starting with  line numbers 8, 413, 4769, 4781 
+- Contains Blood pressure measurement instructions, diagnosis and data requirement
+
+Sec 4 (allopathy-hyptertension-cpg.son file) - starting with  line numbers 8, 413, 814, 1217, 1678 
+- Contains Clinical Tests for Essential and Optimal settings
+
+Sec 5, 6 (allopathy-hyptertension-cpg.son file) - starting with line number 1678 
+- Contains Cardiovascular Risks along with HMOD
+
+Sec 7 (allopathy-hyptertension-cpg.son file) - starting with line number 1809 
+- Exacerbators and Inducers of Hypertension
+
+Sec 8 (allopathy-hyptertension-cpg.son file) - starting with line numbers 8, 413, 814, 1217, 1678, 2491, 2818, 3145, 3431. 3717, 4002, 4287, 4528 
+- Treatment of Hypertension
+
+Sec 9 (allopathy-hyptertension-cpg.son file) - starting with line numbers 2491, 2818, 3145, 3431. 3717, 4002, 4287, 4528 
+-  Common and Other Comorbidities and Complications of Hypertension
