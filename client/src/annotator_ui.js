@@ -757,41 +757,10 @@ var AnnotatorUI = (function ($, window, undefined) {
         $('#del_span_button').hide();
       }
 
-
       $('#span_selected').text(spanText);
-      var encodedText = parseInt(spanText);
-      if (encodedText == 1) {
-        var z = 7;
-      }
-      else if (encodedText == 2) {
-        var z = 9;
-      }
-      else if (encodedText == 3) {
-        var z = 11;
-      }
-      else if (encodedText == 4) {
-        var z = 13;
-      }
-      else if (encodedText == 5) {
-        var z = 15;
-      }
-      else if (encodedText == 6) {
-        var z = 17;
-      }
-      else if (encodedText == 7) {
-        var z = 19;
-      }
-      else if (encodedText == 8) {
-        var z = 21;
-      }
-      else if (encodedText == 9) {
-        var z = 23;
-      }
-      else if (encodedText == 10) {
-        var z = 25;
-      }
+      var encodedText = encodeURIComponent(spanText);
       $.each(searchConfig, function (searchNo, search) {
-        $('#span_' + search[0]).attr('href', search[1].replace('%s', z));
+        $('#span_' + search[0]).attr('href', search[1].replace('%s', encodedText));
       });
 
       // enable all inputs by default (see setSpanTypeSelectability)
