@@ -1,8 +1,8 @@
 version: '3.5'
 
 services:
-  frontend:
-         image: ${DOCKER_REGISTRY:-asia.gcr.io}/${GCP_PROJECT:-wellostack}/frontend:${TAG:-latest}
+  annotation:
+         image: ${DOCKER_REGISTRY:-asia.gcr.io}/${GCP_PROJECT:-wellostack}/annotation:${TAG:-latest}
          build:
            context: ./
            dockerfile: .
