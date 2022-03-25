@@ -1,7 +1,7 @@
-version: '3'
+version: '3.5'
 services:
-  frontend:
-    container_name: frontend
+  annotation:
+    container_name: annotation
     build: .
     ports:
       - '8001:8001'

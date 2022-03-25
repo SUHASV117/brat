@@ -1,0 +1,8 @@
+version: '3.5'
+
+services:
+  frontend:
+         image: ${DOCKER_REGISTRY:-asia.gcr.io}/${GCP_PROJECT:-wellostack}/frontend:${TAG:-latest}
+         build:
+           context: ./
+           dockerfile: .
