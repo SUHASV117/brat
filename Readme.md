@@ -4,4 +4,3 @@ This project shows how the CQL code Sections are linked to the corresponding Sec
 ## Steps to run the application:##
 docker-compose up
 
-Hi 
